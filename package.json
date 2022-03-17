@@ -1,10 +1,11 @@
 {
-  "name": "memtest",
+  "name": "hapi-memory-leak-undefined-lifecycle-fn",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --inspect server.js",
+    "dev": "node --inspect server.js"
   },
   "author": "",
   "license": "ISC",
